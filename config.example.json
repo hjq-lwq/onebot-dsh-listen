@@ -1,0 +1,34 @@
+{
+  "onebot": {
+    "ws": "ws://127.0.0.1:3001",
+    "http": "http://127.0.0.1:3000",
+    "accessToken": "",
+    "wsToken": ""
+  },
+  "dsh": {
+    "baseUrl": "http://127.0.0.1:3080",
+    "token": "",
+    "autoDiscover": true
+  },
+  "agentPreset": "onebot-listen",
+  "workspace": {
+    "dir": "./data/agents",
+    "title": "OneBot Listen"
+  },
+  "allow": {
+    "private": [
+      "123456789",
+      "987654321"
+    ]
+  },
+  "listen": {
+    "enabled": true,
+    "maxMessages": 16
+  },
+  "data": {
+    "dir": "./data"
+  },
+  "mcp": {
+    "enabled": true
+  }
+}
